@@ -1,0 +1,191 @@
+
+
+/*-----------MEDIA QUEERY------------*/
+/* small-x  400px === 25em*/
+
+/* 0 to 400px */
+@media only screen and (max-width:400px) {
+    .navbar {
+        display: none;
+    }
+    .min-logo{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .header .logo a{
+        font-size: 2.4rem;
+    }
+    .boxes{
+        width: 98% !important;
+        margin: 0 !important;
+        padding:0rem 1rem !important;
+        
+    }
+    .boxes .bg{
+         width: 100% !important;
+         padding: 0;
+    }
+    .boxes .bg:not(:first-child){
+        margin:25px 0  !important;
+    }
+    .boxes .bg .book-text p{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .side-bar{
+        padding: 2rem;
+        flex: 1;
+    }
+    .article{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .heading h1{
+        font-size: 2.7rem;
+    }
+    .heading{
+        padding:2rem 2rem 0 2rem;
+    }
+    .footer{
+        padding: 3rem 0rem;
+    }
+    .foot{
+        flex-direction: column-reverse;
+    }
+    .nixo2{
+        order: -1;
+    }
+    .nixo3 h2{
+        font-size: 2.8rem;
+    }
+    .nixo3 p{
+        font-size: 1.5rem;
+        
+    }
+    .nixo{
+        width: 100%;
+    }
+    .foot{
+        padding: 1rem;
+    }
+    .nixo1{
+        margin-top: 2rem;
+    }
+    .nixo1 p{
+        font-size: 1.8rem;
+    }
+    .nixo2{
+        font-size: 1rem;
+        margin-top: 4rem;
+    }
+    
+}
+/* 400px to 600*/
+/* small 600px === 37.5em*/
+@media only screen and (max-width:600px) {
+    .navbar {
+        display: none;
+    }
+    .min-logo{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .header .logo a{
+        font-size: 2.4rem;
+    }
+    .article{
+        width: 100% !important;
+    }
+    
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+        padding: 2rem 5rem;
+        width: 90%;
+    }
+    .boxes .bg{
+        width: 100% !important;
+        margin:40px 0 0 0;
+        padding: 0 !important;
+    }
+    
+}
+
+/* 600 to 900*/
+/* medium  900px === 56,25em*/
+@media only screen and (max-width:900px){
+    .container{
+        width: 100% !important;
+        margin: 0;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .article{
+        width: 100%;
+    }
+    
+    .side-bar
+    {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .divo{
+        padding: .4rem;
+        width:250px !important;
+    }
+    .divo:first-child{
+        margin-top: 1rem;
+    }
+    .lilo-text a {
+        font-size: 1.4rem;
+    }
+
+    .boxes{
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .bg{
+        
+        width: 40% !important;
+    }
+    
+    
+   
+}
+/*900 to 1200*/
+/* large  1200px === 75em*/
+@media only screen and (max-width:1200px) {
+    .bg{
+        width: 45%;
+    }
+    .side-bar{
+        padding: 2rem 1rem;
+    }
+    .divo{
+        width: 95%;
+    }
+}
+
+/* largeX  1200px++ === 25em*/
+@media only screen and (min-width:25em) {
+    
+}

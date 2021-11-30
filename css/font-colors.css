@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500&family=M+PLUS+1+Code&family=Oswald&display=swap');
+:root{
+    --font-01:'Changa', sans-serif;
+    --font-02: 'M PLUS 1 Code', sans-serif;
+    --color-z-light:#ffcbf2;
+    --color-z-light-1:#f3c4fb;
+    --color-z-light-2:#ecbcfd;
+    --color-z-light-3:#e5b3fe;
+    --color-z-light-4:#e2afff;
+    --color-z-light-5:#d8bbff;
+    --color-z-light-6:#deaaff;
+    --color-z-light-7:#c0fdff;
+    --color-dark01:#ffd60a;
+    --color-dark02:#ffc300;
+    --color-dark03:#003566;
+    --color-dark04:#000814;
+    --color-dar05:#001d3d;
+}
